@@ -1,0 +1,39 @@
+## Chatbot API
+A Django-based RESTful API for interacting with a chatbot. The chatbot is powered by a transformer-based language model.
+
+Table of Contents
+Installation
+Usage
+API Endpoints
+Testing with Postman
+Documentation
+
+## Installation
+To set up the Chatbot API on your local machine:
+
+Clone the repository using the link to your GitHub repository.
+Navigate to the project directory named "ChatbotAPI".
+Install the required packages using pip with the requirements file.
+Set up the database by running the Django migrations.
+Start the development server using the Django management command.
+Usage
+After setting up, visit http://127.0.0.1:8000/ in your browser to access the API and its documentation.
+
+## API Endpoints
+The API provides the following main endpoints:
+
+A POST endpoint at http://127.0.0.1:8000/api/chat/ to send a message to the chatbot.
+A GET endpoint at http://127.0.0.1:8000/api/chat/history/ to retrieve chat history.
+Testing with Postman
+For ease of testing, a Postman collection has been provided:
+
+## Download and install Postman from their official website.
+In the root directory of the project, locate the Postman collection file named "Chatbot API.postman_collection.json".
+Import this file into Postman.
+You can now start sending requests to understand and test the API endpoints.
+
+## Documentation
+Detailed API documentation is available. For an interactive experience:
+
+Visit the Swagger UI at http://127.0.0.1:8000/swagger/.
+Alternatively, access the ReDoc UI at http://127.0.0.1:8000/redoc/.
