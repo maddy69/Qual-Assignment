@@ -10,13 +10,13 @@ Documentation
 
 ## Installation
 To set up the Chatbot API on your local machine:
-
 Clone the repository using the link to your GitHub repository.
 Navigate to the project directory named "ChatbotAPI".
 Install the required packages using pip with the requirements file.
 Set up the database by running the Django migrations.
 Start the development server using the Django management command.
-Usage
+
+## Usage
 After setting up, visit http://127.0.0.1:8000/ in your browser to access the API and its documentation.
 
 ## API Endpoints
